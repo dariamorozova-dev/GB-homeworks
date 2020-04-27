@@ -57,7 +57,7 @@ body {
     height: 19px;
     display: block;
     float: left;
-    background-image: url(img/header-list.png);
+    background-image: url(../img/header-list.png);
     background-size: cover;
     position: absolute;
     top: 7px;
@@ -108,8 +108,12 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin: 20px 0 0 0;
+    margin: 0 0 20px 0;
 }
+
+.section-about-p:last-child {
+    margin: 0;
+    }
 
 .section-about-video {
     width: 430px;
@@ -137,15 +141,12 @@ body {
     display: block;
 }
 
-.section-dignity-list-wrp {
-    float: left;
-    max-width: 567px;
-    margin: 29px 23px 0 0;
-}
-
 .section-dignity-list {
     margin: 0;
     padding: 0;
+    float: left;
+    max-width: 567px;
+    margin: 29px 23px 0 0;
 }
 
 .section-dignity-list-item {
@@ -170,7 +171,7 @@ body {
     display: block;
     float: left;
     background-color: #445161;
-    background-image: url(img/plus-dignity.png);
+    background-image: url(../img/plus-dignity.png);
     background-size: cover;
     position: absolute;
     left: 0;
@@ -195,7 +196,7 @@ body {
     line-height: 36px;
     display: block;
     text-align: center;
-    margin-bottom: 4px;
+    margin: 0px;
 }
 
 .section-screenshots-item {
@@ -253,7 +254,7 @@ body {
     line-height: 36px;
     display: block;
     text-align: center;
-    margin: 0 0 11px 0;
+    margin: 0;
 }
 
 .section-rewiews-item-wrp::after {
@@ -322,6 +323,8 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
+    display: block;
+    margin: 5px 0 0 0;
 }
 
 .section-buy {
@@ -416,9 +419,9 @@ body {
     line-height: 24px;
 }
 
-.section-buy-offer-form {
+/*.section-buy-offer-form {
     text-align: center;
-}
+} */
 
 .section-buy-offer-button {
     color: #445161;
@@ -430,6 +433,8 @@ body {
     line-height: 40px;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-left: 50px;
+    padding: 0px;
 }
 
 .footer {
@@ -506,6 +511,10 @@ body {
     padding: 0;
     border-radius: 10px;
     margin: 21px 0 0 0;
+    text-transform: uppercase;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .footer-social-list-item {
