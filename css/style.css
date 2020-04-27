@@ -457,6 +457,18 @@ body {
     clear: both;
 }
 
+.footer-content::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .footer-title {
     color: #ffffff;
     font-size: 30px;
