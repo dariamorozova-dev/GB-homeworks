@@ -61,7 +61,7 @@ body {
     background-size: cover;
     position: absolute;
     top: 7px;
-    left: 0px;
+    left: 0;
 }
 
 .header-img {
@@ -196,7 +196,7 @@ body {
     line-height: 36px;
     display: block;
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
 
 .section-screenshots-item {
@@ -361,7 +361,6 @@ body {
     border-radius: 10px;
     color: white;
     text-align: center;
-    background-color: #445162;
 }
 
 .section-buy-offer-title,
@@ -407,7 +406,7 @@ body {
     line-height: 40px;
     border-radius: 10px;
     margin-bottom: 20px;
-    padding: 0px;
+    padding: 0;
     border: none;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
