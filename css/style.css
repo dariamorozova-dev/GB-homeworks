@@ -407,11 +407,8 @@ body {
     margin-bottom: 20px;
     padding: 0;
     border: none;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-
-.section-buy-offer-button:focus {
     outline: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .section-buy-offer-button:hover {
@@ -501,15 +498,8 @@ body {
 .footer-input,
 .footer-textarea {
     display: block;
+    outline: none;
     border: none;
-}
-
-.footer-input:focus {
-    outline: none;
-}
-
-.footer-textarea:focus {
-    outline: none;
 }
 
 .footer-button {
@@ -523,12 +513,9 @@ body {
     color: #445161;
     font-size: 18px;
     font-weight: 400;
+    outline: none;
     border: none;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-
-.footer-button:focus {
-    outline: none;
 }
 
 .footer-button:hover {
