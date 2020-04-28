@@ -349,7 +349,7 @@ body {
 
 .section-buy-offer-wrp {
     margin: 29px auto 0;
-    max-width: 960px;
+    max-width: 990px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -357,9 +357,8 @@ body {
 
 .section-buy-offer {
     background-color: #445162;
-    max-width: 300px;
+    width: 300px;
     border-radius: 10px;
-    line-height: normal;
     color: white;
     text-align: center;
     background-color: #445162;
@@ -389,6 +388,7 @@ body {
 .section-buy-offer-list {
     margin: 19px 30px 20px 20px;
     padding-left: 15px;
+    text-align: initial;
 }
 
 .section-buy-offer-list-item {
@@ -403,13 +403,24 @@ body {
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    display: inline-block;
     width: 200px;
     line-height: 40px;
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 0px;
     outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.section-buy-offer-button:hover {
+    background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #fff,#777);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.section-buy-offer-button:active {
+    background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #fff,#555);
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
 }
 
 .footer {
@@ -439,7 +450,7 @@ body {
 }
 
 .footer-content {
-    max-width: 900px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
@@ -490,6 +501,7 @@ body {
 .footer-textarea {
     display: block;
     outline: none;
+    border: none;
 }
 
 .footer-button {
@@ -504,6 +516,18 @@ body {
     font-size: 18px;
     font-weight: 400;
     outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.footer-button:hover {
+    background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #fff,#777);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.footer-button:active {
+    background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #fff,#555);
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
 }
 
 .footer-social {
