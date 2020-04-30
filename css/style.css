@@ -198,15 +198,11 @@ body {
     margin: 0;
 }
 
-.section-screenshots-item {
+.section-screenshots-figure {
+    padding: 0;
     max-width: 574px;
     float: left;
     margin: 30px 6px 0 0;
-}
-
-.section-screenshots-figure {
-    margin: 0;
-    padding: 0;
 }
 
 .section-screenshots-img {
